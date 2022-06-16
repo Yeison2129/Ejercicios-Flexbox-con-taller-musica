@@ -1,0 +1,126 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flex;
+    background-color: salmon;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 25vh;
+    font-size: 30px;
+    flex-direction: column;
+    
+   
+}
+
+h2{
+    color: #fff;    
+}
+
+.sub{
+    color:#fff;
+    font-size:20px;
+}
+
+
+nav{
+    display:flex;
+
+}
+
+.menu{
+    display:flex;
+    height:30% ;
+    width: 30%;
+    padding-right:600px;
+     justify-content:space-around;  
+    align-items:center;
+    background-color: rgb(33, 219, 139);
+    width: 200%;
+    height: 5vh;
+} 
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.hola{
+    display:flex;
+    margin:0;
+    padding-left:20px;
+    justify-content:flex-end; 
+    justify-content: space-around; 
+    align-items:center;
+    background-color: rgb(33, 219, 139);
+    width: 90%;
+    height: 5vh;
+} 
+
+.hola a{
+    color: white;
+    text-decoration: none;
+}
+
+ .idioma{
+     align-items:center;
+ }
+
+ .aside{
+    font-size:25px;
+ }
+.viego{
+    height: 200px;
+    
+    border-radius:20px;     
+}
+aside{
+    flex-direction: column;
+    display: flex;
+    
+    margin:0 0 0 20px;
+    
+}
+
+.viego2{
+ 
+    width: 400px;
+    border-radius:20px;
+    flex-wrap:wrap;  
+}
+
+.contenedor{
+    display: flex;
+
+}
+
+.article{
+    width: 70%;
+    margin:0 0 0 20px; 
+}
+.titulo2{
+    font-size: 25px;
+}
+
+.supra{
+    
+    width:668px;
+   
+}
+footer{
+    display:flex;
+    width:100%;
+    height:8vh;
+    background-color:rgb(231, 232, 232);
+    justify-content: center;
+    align-items: center;
+
+
+ }
+ section{
+     height: 100%;
+ }
+
